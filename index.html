@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="/dist/handsontable.full.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/keyboard.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/keyboard-basic.min.css">
+    <link rel="stylesheet" type="text/css" href="/osd.css">
+    <script src="/dist/jquery-latest.min.js"></script>
+    <script src="/dist/jquery.keyboard.min.js"></script>
+    <script src="/dist/jquery.keyboard.extension-all.min.js"></script>
+    <script src="/dist/handsontable.full.min.js"></script>
+  </head>
+  <body>
+    <div class="intro">
+      <h2>Словарь</h2>
+      <p>
+        Таблица №1
+      </p>
+    </div>
+    <div class="table-wrapper">
+      <div class="filters">
+        <div class="filter">
+          <input id="norm" placeholder="Norm" type="text">
+          <div class="select-style">
+            <select name="norm">
+              <option value="contains">
+                .[.].
+              </option>
+              <option value="startsWith">
+                [.]..
+              </option>
+              <option value="endsWith">
+                ..[.]
+              </option>
+            </select>
+          </div>
+        </div>
+        <div class="filter">
+          <input id="mphl" placeholder="Mphl" type="text">
+          <div class="select-style">
+            <select name="mphl">
+              <option value="contains">
+                .[.].
+              </option>
+              <option value="startsWith">
+                [.]..
+              </option>
+              <option value="endsWith">
+                ..[.]
+              </option>
+            </select>
+          </div>
+        </div>
+        <div class="filter">
+          <input id="root_number" placeholder="Root number" type="text">
+        </div>
+        <div class="filter">
+          <input id="root_form" placeholder="Root form" type="text">
+        </div>
+        <div class="filter">
+          <input id="par_index" placeholder="Par index" type="text">
+        </div>
+        <div class="filter">
+          <input id="class" placeholder="Class" type="text">
+        </div>
+        <div class="reset">
+          <button id="reset">Reset</button>
+        </div>
+        <div class="sort">
+          <button id="reverse-sort">Reverse Sorting</button>
+        </div>
+      </div>
+      <div id="osd"></div>
+    </div>
+    <script src="/osd.js"></script>
+  </body>
+</html>
