@@ -13,16 +13,13 @@
   <body>
     <div class="intro">
       <h2>Словарь</h2>
-      <p>
-        Таблица №1
-      </p>
     </div>
     <div class="table-wrapper">
       <div class="filters">
         <div class="filter">
           <input id="norm" placeholder="Norm" type="text">
           <div class="select-style">
-            <select name="norm">
+            <select id="norm-opt">
               <option value="contains">
                 .[.].
               </option>
@@ -38,7 +35,7 @@
         <div class="filter">
           <input id="mphl" placeholder="Mphl" type="text">
           <div class="select-style">
-            <select name="mphl">
+            <select id="mphl-opt">
               <option value="contains">
                 .[.].
               </option>
@@ -56,12 +53,33 @@
         </div>
         <div class="filter">
           <input id="root_form" placeholder="Root form" type="text">
+          <div class="select-style">
+            <select id="root_form-opt">
+              <option value="contains">
+                .[.].
+              </option>
+              <option value="startsWith">
+                [.]..
+              </option>
+              <option value="endsWith">
+                ..[.]
+              </option>
+            </select>
+          </div>
         </div>
         <div class="filter">
           <input id="par_index" placeholder="Par index" type="text">
         </div>
         <div class="filter">
-          <input id="class" placeholder="Class" type="text">
+          <!-- <input id="class" placeholder="Class" type="text"> -->
+          <div class="select-style class">
+            <select id="class">
+              <option value="">Class</option>
+              <option value="n">n</option>
+              <option value="v">v</option>
+              <option value="a">a</option>
+            </select>
+          </div>
         </div>
         <div class="reset">
           <button id="reset">Reset</button>

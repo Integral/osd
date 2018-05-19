@@ -8,7 +8,7 @@ class OSD {
       {name: 'root_number', type: 'array', value: ''},
       {name: 'root_form', type: 'array', value: ''},
       {name: 'par_index', type: 'array', value: ''},
-      {name: 'class', type: 'array', value: ''},
+      {name: 'class', type: 'select', value: ''},
     ]
     this.searchFields = {}
     this.el = el
@@ -19,14 +19,21 @@ class OSD {
     })
 
     this.filters.forEach(f => {
-      Handsontable.dom.addEvent(document.getElementById(f.name), 'keyup', e => {
-        f.value = "" + e.target.value
-        this.filter()
-      })
+      if(f.type !== 'select') {
+        Handsontable.dom.addEvent(document.getElementById(f.name), 'keyup', e => {
+          f.value = "" + e.target.value
+          this.filter()
+        })
+      } else {
+        Handsontable.dom.addEvent(document.getElementById(f.name), 'change', e => {
+          f.value = "" + e.target.value
+          this.filter()
+        })
+      }
 
-      const nameEL = document.getElementsByName(f.name)
-      if(nameEL.length > 0) {
-        Handsontable.dom.addEvent(nameEL[0], 'change', e => {
+      const optEl = document.getElementById(f.name + '-opt')
+      if(optEl) {
+        Handsontable.dom.addEvent(optEl, 'change', e => {
           f.type = e.target.value
           this.filter()
         })
@@ -65,6 +72,7 @@ class OSD {
         {
           data: 'root_number',
           type: 'numeric',
+          className: 'htCenter',
           readOnly: true
         },
         {
@@ -103,6 +111,7 @@ class OSD {
         {
           data: 'reference',
           type: 'numeric',
+          className: 'htLeft',
           readOnly: true
         }
       ],
@@ -131,7 +140,7 @@ class OSD {
   }
 
   attachKeyboard() {
-    $('input').keyboard({
+    $('#norm,#mphl,#root_form').keyboard({
     	layout: 'custom',
       autoAccept: true,
     	customLayout: {
@@ -191,6 +200,10 @@ class OSD {
             }
           } else if (filterType === 'endsWith') {
             if(!rowValue.endsWith(filterValue)) {
+              local = false
+            }
+          } else if (filterType === 'select') {
+            if(rowValue !== filterValue) {
               local = false
             }
           }
