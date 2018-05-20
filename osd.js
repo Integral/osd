@@ -63,12 +63,22 @@ class OSD {
         e.target.classList.add('active')
       }
     })
+
+    Handsontable.dom.addEvent(document.getElementById('download'), 'click', e => {
+      this.downloadCSV()
+    })
   }
 
   initTable() {
     const osdSettings = {
       data: this.data,
       columns: [
+        {
+          data: 'id',
+          type: 'numeric',
+          className: 'htCenter',
+          readOnly: true
+        },
         {
           data: 'root_number',
           type: 'numeric',
@@ -126,6 +136,7 @@ class OSD {
       },
       sortIndicator: true,
       colHeaders: [
+        //'id',
         'root #',
         'root form',
         'mphl',
@@ -133,16 +144,24 @@ class OSD {
         'par index',
         'class',
         'extent',
-        'notice'
+        'notice',
+        'reference'
       ]
     }
     this.table = new Handsontable(this.el, osdSettings)
+
+    Handsontable.hooks.add('afterColumnSort', (column, order) => {
+      if(order === undefined) {
+        this.filter()
+      }
+    }, this.table)
   }
 
   attachKeyboard() {
-    $('#norm,#mphl,#root_form').keyboard({
+    this.kb = $('#norm,#mphl,#root_form').keyboard({
     	layout: 'custom',
       autoAccept: true,
+      closeByClickEvent : true,
     	customLayout: {
     		'normal' : [
     			// "n(a):title_or_tooltip"; n = new key, (a) = actual key, ":label" = title_or_tooltip (use an underscore "_" in place of a space " ")
@@ -235,6 +254,37 @@ class OSD {
     xobj.send(null)
   }
 
+  getCSVString() {
+    const headers = this.table.getColHeader()
+
+    let csv = headers.join(";") + "\n"
+
+    for (let i = 0; i < this.table.countRows(); i++) {
+      let row = []
+      for (let h in headers) {
+        let prop = this.table.colToProp(h)
+        let value = this.table.getDataAtRowProp(i, prop)
+        row.push(value)
+      }
+
+      csv += row.join(";")
+      csv += "\n"
+    }
+
+    return csv
+  }
+
+  downloadCSV() {
+    const csv = this.getCSVString()
+    let link = document.createElement("a")
+    link.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(csv))
+    link.setAttribute("download", "osd_data.csv")
+
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
 }
 
 let sortAlphabetically = function(sortOrder) {
@@ -262,6 +312,11 @@ let sortByAlphabet = function(a, b, rev) {
     b = reverseWord(b.replace(/\d/g,''))
   }
 
+  if(a === b) {
+    return 0
+  }
+
+
   const aidx = getIndexesInAlphabet(a)
   const bidx = getIndexesInAlphabet(b)
 
@@ -274,6 +329,14 @@ let sortByAlphabet = function(a, b, rev) {
     } else if(aidx[i] < bidx[i]) {
       res = -1
       break
+    }
+  }
+
+  if (res === 0 && aidx.length !== bidx.length) {
+    if(aidx.length > bidx.length) {
+      res = 1
+    } else {
+      res = -1
     }
   }
 

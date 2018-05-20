@@ -21,12 +21,14 @@ html, body  {
 .filters {
   display: flex;
   margin: 0px auto 20px;
-  width:90vw;
+  width: 90vw;
+  flex-wrap: wrap;
 }
 
 .filter, .sort, .reset {
   display: flex;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 #osd {
@@ -78,6 +80,7 @@ input {
 
 .select-style select {
   padding: 10px 8px;
+  margin: 0px;
   width: 100%;
   border: none;
   box-shadow: none;
@@ -90,7 +93,8 @@ input {
   outline: none;
 }
 
-.ui-keyboard {
+.ui-keyboard,
+.ui-keyboard-button {
   font-family: "NewPolivanova";
 }
 
@@ -102,9 +106,10 @@ button {
   border-radius: 2px;
   font-size: 14px;
   font-family: Georgia, serif;
+  height: 34px;
 }
 
 button.active {
-  box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 6px rgba(0,0,0,.2) inset;
+  box-shadow: 0 0px 2px 2px rgba(0,0,0,.15) inset, 0 0 6px rgba(0,0,0,.2) inset;
   border-color: #000\9;
 }
