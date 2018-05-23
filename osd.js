@@ -73,12 +73,12 @@ class OSD {
     const osdSettings = {
       data: this.data,
       columns: [
-        {
-          data: 'id',
-          type: 'numeric',
-          className: 'htCenter',
-          readOnly: true
-        },
+        // {
+        //   data: 'id',
+        //   type: 'numeric',
+        //   className: 'htCenter',
+        //   readOnly: true
+        // },
         {
           data: 'root_number',
           type: 'numeric',
@@ -143,7 +143,7 @@ class OSD {
         'norm',
         'par index',
         'class',
-        'extent',
+        //'extent',
         'notice',
         'reference'
       ]
