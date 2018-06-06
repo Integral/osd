@@ -358,7 +358,7 @@
       "mphl": "",
       "norm": "ꙗхати",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. ꙗти",
       "reference": ""
    },
@@ -490,7 +490,7 @@
       "mphl": "",
       "norm": "ѥсмь",
       "par_index": "0",
-      "class": "v",
+      "class": "",
       "extent": "см. п. 539",
       "reference": 824
    },
@@ -1028,7 +1028,7 @@
       "root_form": "бл҄ьв",
       "mphl": "(бл҄ьв).а.т.и",
       "norm": "бл҄ьвати",
-      "par_index": "3h%*",
+      "par_index": "3h*#",
       "class": "v",
       "extent": "",
       "reference": 702
@@ -3382,9 +3382,9 @@
       "root_form": "брѣг",
       "mphl": "(брѣг).т.и",
       "norm": "брѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": 744
    },
    {
@@ -4383,7 +4383,7 @@
       "root_form": "вид",
       "mphl": "(вид).ѣ.т.и",
       "norm": "видѣти",
-      "par_index": "2@",
+      "par_index": "2∇",
       "class": "v",
       "extent": "",
       "reference": ""
@@ -4867,9 +4867,9 @@
       "root_form": "влѣк",
       "mphl": "(влѣк).т.и",
       "norm": "влѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -5494,7 +5494,7 @@
       "root_form": "низ",
       "mphl": "въ.(низ).т.и",
       "norm": "вънисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 671
@@ -5669,7 +5669,7 @@
       "root_number": 117,
       "root_form": "врат",
       "mphl": "(врат).ъ",
-      "norm": "вратъ 1",
+      "norm": "вратъ1",
       "par_index": "2/m",
       "class": "n",
       "extent": "",
@@ -5680,7 +5680,7 @@
       "root_number": 89,
       "root_form": "вра",
       "mphl": "(вра).т.ъ",
-      "norm": "вратъ 2",
+      "norm": "вратъ2",
       "par_index": "2/m",
       "class": "n",
       "extent": "",
@@ -5989,7 +5989,7 @@
       "root_form": "врѣг",
       "mphl": "(врѣг).т.и",
       "norm": "врѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -6001,7 +6001,7 @@
       "mphl": "",
       "norm": "въꙗхати",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. въꙗти",
       "reference": ""
    },
@@ -6088,9 +6088,9 @@
       "root_form": "влѣк",
       "mphl": "въ.(влѣк).т.и",
       "norm": "въвлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -6110,7 +6110,7 @@
       "root_form": "врѣ",
       "mphl": "въ.(врѣ).т.и",
       "norm": "въврѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 745"
@@ -6121,7 +6121,7 @@
       "root_form": "врѣг",
       "mphl": "въ.(врѣг).т.и",
       "norm": "въврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -6374,7 +6374,7 @@
       "root_form": "жег",
       "mphl": "въ.(жег).т.и",
       "norm": "въжещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -6759,7 +6759,7 @@
       "root_form": "врѣг",
       "mphl": "въз.(врѣг).т.и",
       "norm": "възврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -7981,7 +7981,7 @@
       "mphl": "",
       "norm": "възѣхати",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. възѣти",
       "reference": ""
    },
@@ -8399,7 +8399,7 @@
       "mphl": "",
       "norm": "въсел҄ѥнаꙗ",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. въселити",
       "reference": ""
    },
@@ -9731,7 +9731,7 @@
       "norm": "въспѣти",
       "par_index": "4h)",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": 738
    },
    {
@@ -10433,7 +10433,7 @@
       "root_form": "чит",
       "mphl": "въ.(чит).т.и",
       "norm": "въчисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -10511,7 +10511,7 @@
       "mphl": "",
       "norm": "вы",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. ты",
       "reference": ""
    },
@@ -10532,7 +10532,7 @@
       "root_form": "врѣг",
       "mphl": "вы.(врѣг).т.и",
       "norm": "выврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -10709,7 +10709,7 @@
       "mphl": "(вьс).ь",
       "norm": "вьсь",
       "par_index": "2/p+",
-      "class": "",
+      "class": "a",
       "extent": "",
       "reference": 788
    },
@@ -11818,7 +11818,7 @@
       "root_number": 192,
       "root_form": "град",
       "mphl": "(град).ъ",
-      "norm": "градъ 1",
+      "norm": "градъ1",
       "par_index": "2/m",
       "class": "n",
       "extent": "",
@@ -11829,7 +11829,7 @@
       "root_number": 191,
       "root_form": "град",
       "mphl": "(град).ъ",
-      "norm": "градъ 2",
+      "norm": "градъ2",
       "par_index": "2/m",
       "class": "n",
       "extent": "",
@@ -13568,7 +13568,7 @@
       "root_form": "тек",
       "mphl": "до.(тек).т.и",
       "norm": "дотещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -14811,7 +14811,7 @@
       "root_form": "жег",
       "mphl": "(жег).т.и",
       "norm": "жещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -15614,7 +15614,7 @@
       "root_form": "врѣ",
       "mphl": "за.(врѣ).т.и",
       "norm": "заврѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 745"
@@ -15768,7 +15768,7 @@
       "root_form": "жег",
       "mphl": "за.(жег).т.и",
       "norm": "зажещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -16010,7 +16010,7 @@
       "root_form": "кры",
       "mphl": "за.(кры).т.и",
       "norm": "закрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -16120,7 +16120,7 @@
       "root_form": "пл҄ьв",
       "mphl": "за.(пл҄ьв).а.т.и",
       "norm": "запл҄ьвати",
-      "par_index": "3h%*",
+      "par_index": "3h*#",
       "class": "v",
       "extent": "",
       "reference": 716
@@ -16329,7 +16329,7 @@
       "root_form": "рек",
       "mphl": "за.(рек).т.и",
       "norm": "зарещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -17187,7 +17187,7 @@
       "root_form": "жег",
       "mphl": "из.(жег).т.и",
       "norm": "иждещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -17264,7 +17264,7 @@
       "root_form": "бл҄ьв",
       "mphl": "из.(бл҄ьв).а.т.и",
       "norm": "избл҄ьвати",
-      "par_index": "3h%*",
+      "par_index": "3h*#",
       "class": "v",
       "extent": "",
       "reference": 702
@@ -17814,7 +17814,7 @@
       "root_form": "кры",
       "mphl": "(кры).т.и",
       "norm": "крыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -18089,9 +18089,9 @@
       "root_form": "влѣк",
       "mphl": "из.(влѣк).т.и",
       "norm": "извлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -18144,7 +18144,7 @@
       "root_form": "врѣг",
       "mphl": "из.(врѣг).т.и",
       "norm": "изврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -18242,7 +18242,7 @@
       "root_number": 140,
       "root_form": "вѣд",
       "mphl": "из.(вѣд).щ.а.т.и",
-      "norm": "извѣщати 2",
+      "norm": "извѣщати2",
       "par_index": 7,
       "class": "v",
       "extent": "",
@@ -18253,7 +18253,7 @@
       "root_number": 137,
       "root_form": "вѣщ",
       "mphl": "из.(вѣщ).а.т.и",
-      "norm": "извѣщати 1",
+      "norm": "извѣщати1",
       "par_index": 7,
       "class": "v",
       "extent": "",
@@ -18441,7 +18441,7 @@
       "root_form": "рек",
       "mphl": "из.(рек).т.и",
       "norm": "издрещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -18452,7 +18452,7 @@
       "root_form": "ры",
       "mphl": "из.(ры).т.и",
       "norm": "издрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 717
@@ -18694,7 +18694,7 @@
       "root_form": "мрь.мрѣ",
       "mphl": "из.((мрь.мрѣ)).т.и",
       "norm": "измрьмрѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "756, 835"
@@ -18705,7 +18705,7 @@
       "root_form": "мрѣ",
       "mphl": "из.(мрѣ).т.и",
       "norm": "измрѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "756, 835"
@@ -18738,7 +18738,7 @@
       "root_form": "мы",
       "mphl": "из.(мы).т.и",
       "norm": "измыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 713
@@ -19805,7 +19805,7 @@
       "root_form": "врѣг",
       "mphl": "из.про.(врѣг).т.и",
       "norm": "испроврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -19906,7 +19906,7 @@
       "norm": "испѣти",
       "par_index": "4h)",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": 738
    },
    {
@@ -19949,7 +19949,7 @@
       "mphl": "",
       "norm": "истеса",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. исто",
       "reference": ""
    },
@@ -19959,7 +19959,7 @@
       "root_form": "тек",
       "mphl": "из.(тек).т.и",
       "norm": "истещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -22787,7 +22787,7 @@
       "mphl": "(к).ъ.т.о",
       "norm": "къто",
       "par_index": "0/p",
-      "class": "",
+      "class": "a",
       "extent": "",
       "reference": 792
    },
@@ -22820,7 +22820,7 @@
       "mphl": "(к).ъi̯.ь",
       "norm": "кыи",
       "par_index": "0/p",
-      "class": "",
+      "class": "a",
       "extent": "",
       "reference": 792
    },
@@ -24622,7 +24622,7 @@
       "root_number": 595,
       "root_form": "мѫк",
       "mphl": "(мѫк).а",
-      "norm": "мѫка 2",
+      "norm": "мѫка2",
       "par_index": "2/f",
       "class": "n",
       "extent": "",
@@ -24633,7 +24633,7 @@
       "root_number": 595,
       "root_form": "мѫк",
       "mphl": "(мѫк).а",
-      "norm": "мѫка 1",
+      "norm": "мѫка1",
       "par_index": "2/f",
       "class": "n",
       "extent": "",
@@ -25437,7 +25437,7 @@
       "root_form": "мрѣ",
       "mphl": "(мрѣ).т.и",
       "norm": "мрѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "756, 835"
@@ -25790,7 +25790,7 @@
       "mphl": "",
       "norm": "мы",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. азъ",
       "reference": ""
    },
@@ -25844,7 +25844,7 @@
       "root_form": "мы",
       "mphl": "(мы).т.и",
       "norm": "мыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 713
@@ -27164,7 +27164,7 @@
       "root_form": "рек",
       "mphl": "на.(рек).т.и",
       "norm": "нарещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -27286,7 +27286,7 @@
       "mphl": "",
       "norm": "насел҄ѥнаꙗ",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. населити",
       "reference": ""
    },
@@ -27890,9 +27890,9 @@
       "root_form": "влѣк",
       "mphl": "об.(влѣк).т.и",
       "norm": "облѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -28341,7 +28341,7 @@
       "root_form": "у",
       "mphl": "об.(у).т.и",
       "norm": "обути",
-      "par_index": "4v@",
+      "par_index": "4v∇",
       "class": "v",
       "extent": "",
       "reference": 836
@@ -29848,7 +29848,7 @@
       "root_form": "врѣг",
       "mphl": "низъ.(врѣг).т.и",
       "norm": "низъврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -30200,7 +30200,7 @@
       "root_form": "бл҄ьв",
       "mphl": "об.(бл҄ьв).а.т.и",
       "norm": "обл҄ьвати",
-      "par_index": "3h%*",
+      "par_index": "3h*#",
       "class": "v",
       "extent": "",
       "reference": 702
@@ -31014,7 +31014,7 @@
       "root_form": "мы",
       "mphl": "отъ.у.(мы).т.и",
       "norm": "отъумыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 713
@@ -31058,7 +31058,7 @@
       "root_form": "цвит",
       "mphl": "отъ.(цвит).т.и",
       "norm": "отъцвисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 676"
@@ -31091,7 +31091,7 @@
       "root_form": "чит",
       "mphl": "отъ.(чит).т.и",
       "norm": "отъчисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -32312,7 +32312,7 @@
       "root_form": "жег",
       "mphl": "об.(жег).т.и",
       "norm": "ожещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -32719,7 +32719,7 @@
       "root_form": "кры",
       "mphl": "от.(кры).т.и",
       "norm": "окрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -32928,7 +32928,7 @@
       "root_form": "мы",
       "mphl": "об.(мы).т.и",
       "norm": "омыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 713
@@ -32994,7 +32994,7 @@
       "root_form": "пл҄ьв",
       "mphl": "об.(пл҄ьв).а.т.и",
       "norm": "опл҄ьвати",
-      "par_index": "3h%*",
+      "par_index": "3h*#",
       "class": "v",
       "extent": "",
       "reference": 716
@@ -33214,7 +33214,7 @@
       "root_form": "врѣг",
       "mphl": "от.про.(врѣг).т.и",
       "norm": "опроврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -33247,7 +33247,7 @@
       "root_form": "прѣ",
       "mphl": "об.(прѣ).т.и",
       "norm": "опрѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": 761
@@ -34005,7 +34005,7 @@
       "root_number": 885,
       "root_form": "стѫп",
       "mphl": "об.(стѫп).и.т.и",
-      "norm": "остѫпити 1",
+      "norm": "остѫпити1",
       "par_index": 1,
       "class": "v",
       "extent": "",
@@ -34369,7 +34369,7 @@
       "root_form": "врѣз",
       "mphl": "от.(врѣз).т.и",
       "norm": "отврѣсти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 678, 748"
@@ -34710,9 +34710,9 @@
       "root_form": "влѣк",
       "mphl": "отъ.(влѣк).т.и",
       "norm": "отъвлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -34765,7 +34765,7 @@
       "root_form": "врѣг",
       "mphl": "отъ.(врѣг).т.и",
       "norm": "отъврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -35084,7 +35084,7 @@
       "root_form": "мы",
       "mphl": "отъ.(мы).т.и",
       "norm": "отъмыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 713
@@ -35315,7 +35315,7 @@
       "root_form": "рек",
       "mphl": "отъ.(рек).т.и",
       "norm": "отърещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -35392,7 +35392,7 @@
       "root_form": "ры",
       "mphl": "отъ.(ры).т.и",
       "norm": "отърыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 717
@@ -35446,7 +35446,7 @@
       "root_number": 885,
       "root_form": "стѫп",
       "mphl": "от.(стѫп).и.т.и",
-      "norm": "остѫпити 2",
+      "norm": "остѫпити2",
       "par_index": 1,
       "class": "v",
       "extent": "",
@@ -35524,7 +35524,7 @@
       "root_form": "тек",
       "mphl": "отъ.(тек).т.и",
       "norm": "отътещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -35832,7 +35832,7 @@
       "root_form": "пл҄ьв",
       "mphl": "(пл҄ьв).а.т.и",
       "norm": "пл҄ьвати",
-      "par_index": "3h%*",
+      "par_index": "3h*#",
       "class": "v",
       "extent": "",
       "reference": 716
@@ -36338,7 +36338,7 @@
       "root_form": "пек",
       "mphl": "(пек).т.и",
       "norm": "пещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 665
@@ -37669,9 +37669,9 @@
       "root_form": "влѣк",
       "mphl": "по.(влѣк).т.и",
       "norm": "повлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -37691,7 +37691,7 @@
       "root_form": "врѣз",
       "mphl": "по.(врѣз).т.и",
       "norm": "поврѣсти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 678, 748"
@@ -37702,7 +37702,7 @@
       "root_form": "врѣг",
       "mphl": "по.(врѣг).т.и",
       "norm": "поврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -38989,7 +38989,7 @@
       "root_form": "ры",
       "mphl": "подъ.(ры).т.и",
       "norm": "подърыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 717
@@ -39066,7 +39066,7 @@
       "root_form": "жег",
       "mphl": "по.(жег).т.и",
       "norm": "пожещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -39099,7 +39099,7 @@
       "root_form": "жрѣ",
       "mphl": "по.(жрѣ).т.и",
       "norm": "пожрѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 751, 752"
@@ -39693,7 +39693,7 @@
       "root_form": "кры",
       "mphl": "по.(кры).т.и",
       "norm": "покрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -40529,7 +40529,7 @@
       "root_form": "пек",
       "mphl": "по.(пек).т.и",
       "norm": "попещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 665
@@ -40760,7 +40760,7 @@
       "root_form": "рек",
       "mphl": "по.(рек).т.и",
       "norm": "порещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -41288,7 +41288,7 @@
       "root_form": "стрѣг",
       "mphl": "по.(стрѣг).т.и",
       "norm": "пострѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "663, 767"
@@ -41574,7 +41574,7 @@
       "root_form": "тек",
       "mphl": "по.(тек).т.и",
       "norm": "потещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -42289,7 +42289,7 @@
       "root_form": "кры",
       "mphl": "при.(кры).т.и",
       "norm": "прикрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -42421,7 +42421,7 @@
       "root_form": "чит",
       "mphl": "по.(чит).т.и",
       "norm": "почисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -42498,7 +42498,7 @@
       "root_form": "чрѣп",
       "mphl": "по.(чрѣп).т.и",
       "norm": "почрѣти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 770"
@@ -42906,7 +42906,7 @@
       "mphl": "",
       "norm": "приꙗхати",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. приꙗти",
       "reference": ""
    },
@@ -43180,9 +43180,9 @@
       "root_form": "влѣк",
       "mphl": "при.(влѣк).т.и",
       "norm": "привлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -43202,7 +43202,7 @@
       "root_form": "врѣг",
       "mphl": "при.(врѣг).т.и",
       "norm": "приврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -44445,7 +44445,7 @@
       "root_form": "тек",
       "mphl": "при.(тек).т.и",
       "norm": "притещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -44488,7 +44488,7 @@
       "root_number": 992,
       "root_form": "тък",
       "mphl": "при.(тък).ъ",
-      "norm": "притъкъ",
+      "norm": "притъкъ2",
       "par_index": "2/a",
       "class": "a",
       "extent": "",
@@ -44621,7 +44621,7 @@
       "root_form": "чит",
       "mphl": "при.(чит).т.и",
       "norm": "причисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -44929,7 +44929,7 @@
       "root_form": "врѣ",
       "mphl": "про.(врѣ).т.и",
       "norm": "проврѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 745"
@@ -45897,7 +45897,7 @@
       "root_form": "рек",
       "mphl": "про.(рек).т.и",
       "norm": "прорещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -46238,7 +46238,7 @@
       "root_form": "стрѣ",
       "mphl": "про.(стрѣ).т.и",
       "norm": "прострѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": 766
@@ -46359,7 +46359,7 @@
       "root_form": "цвит",
       "mphl": "про.(цвит).т.и",
       "norm": "процвисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 676"
@@ -46514,7 +46514,7 @@
       "mphl": "",
       "norm": "прѣꙗхати",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. прѣꙗти",
       "reference": ""
    },
@@ -47272,7 +47272,7 @@
       "root_form": "рек",
       "mphl": "прѣдъ.(рек).т.и",
       "norm": "прѣдърещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -47360,7 +47360,7 @@
       "root_form": "тек",
       "mphl": "прѣдъ.(тек).т.и",
       "norm": "прѣдътещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -48174,9 +48174,9 @@
       "root_form": "влѣк",
       "mphl": "прѣ.об.(влѣк).т.и",
       "norm": "прѣоблѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -48449,7 +48449,7 @@
       "root_form": "рек",
       "mphl": "прѣ.(рек).т.и",
       "norm": "прѣрещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -48911,7 +48911,7 @@
       "root_form": "тек",
       "mphl": "прѣ.(тек).т.и",
       "norm": "прѣтещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -49705,7 +49705,7 @@
       "norm": "пѣти",
       "par_index": "4h)",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": 738
    },
    {
@@ -49824,7 +49824,7 @@
       "root_form": "жег",
       "mphl": "раз.(жег).т.и",
       "norm": "раждещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -50275,7 +50275,7 @@
       "root_form": "врѣз",
       "mphl": "раз.(врѣз).т.и",
       "norm": "разврѣсти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 678, 748"
@@ -50286,7 +50286,7 @@
       "root_form": "врѣг",
       "mphl": "раз.(врѣг).т.и",
       "norm": "разврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -51056,7 +51056,7 @@
       "root_form": "скврѣ",
       "mphl": "раз.(скврѣ).т.и",
       "norm": "раскврѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 763"
@@ -51254,7 +51254,7 @@
       "root_form": "стрѣ",
       "mphl": "раз.про.(стрѣ).т.и",
       "norm": "распрострѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": 766
@@ -51408,7 +51408,7 @@
       "root_form": "тек",
       "mphl": "раз.(тек).т.и",
       "norm": "растещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -51826,7 +51826,7 @@
       "root_form": "рек",
       "mphl": "(рек).т.и",
       "norm": "рещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -52453,7 +52453,7 @@
       "root_form": "ры",
       "mphl": "(ры).т.и",
       "norm": "рыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 717
@@ -52531,7 +52531,7 @@
       "mphl": "(с).иц.ь",
       "norm": "сиць",
       "par_index": "2/p+",
-      "class": "",
+      "class": "a",
       "extent": "",
       "reference": 798
    },
@@ -56049,7 +56049,7 @@
       "root_number": 891,
       "root_form": "стрѣг",
       "mphl": "(стрѣг).т.и",
-      "norm": "стрѣщи 1",
+      "norm": "стрѣщи1",
       "par_index": "4c",
       "class": "v",
       "extent": "",
@@ -56060,8 +56060,8 @@
       "root_number": 894,
       "root_form": "стрѣг",
       "mphl": "(стрѣг).т.и",
-      "norm": "стрѣщи 2",
-      "par_index": "4c*(",
+      "norm": "стрѣщи2",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "663, 767"
@@ -56853,9 +56853,9 @@
       "root_form": "влѣк",
       "mphl": "съ.(влѣк).т.и",
       "norm": "съвлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -56941,7 +56941,7 @@
       "root_form": "врѣг",
       "mphl": "съ.(врѣг).т.и",
       "norm": "съврѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 747"
@@ -57700,7 +57700,7 @@
       "root_form": "жег",
       "mphl": "съ.(жег).т.и",
       "norm": "съжещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -58074,7 +58074,7 @@
       "root_form": "кры",
       "mphl": "съ.(кры).т.и",
       "norm": "съкрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -58965,9 +58965,9 @@
       "root_form": "влѣк",
       "mphl": "съ.об.(влѣк).т.и",
       "norm": "съоблѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": "62, 772"
    },
    {
@@ -59515,7 +59515,7 @@
       "root_form": "тек",
       "mphl": "(тек).т.и",
       "norm": "тещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -59779,7 +59779,7 @@
       "root_form": "тлѣк",
       "mphl": "(тлѣк).т.и",
       "norm": "тлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 681, 784"
@@ -59924,7 +59924,7 @@
       "norm": "съпѣти",
       "par_index": "4h)",
       "class": "v",
-      "extent": "см. п.  502",
+      "extent": "",
       "reference": 738
    },
    {
@@ -60351,7 +60351,7 @@
       "root_form": "тек",
       "mphl": "съ.(тек).т.и",
       "norm": "сътещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -60417,7 +60417,7 @@
       "root_form": "тлѣк",
       "mphl": "съ.(тлѣк).т.и",
       "norm": "сътлѣщи",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 681, 784"
@@ -60747,7 +60747,7 @@
       "root_form": "шы",
       "mphl": "съ.(шы).т.и",
       "norm": "съшити",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 729
@@ -60779,7 +60779,7 @@
       "root_number": 922,
       "root_form": "сын",
       "mphl": "(сын).ъ",
-      "norm": "сынъ 2",
+      "norm": "сынъ2",
       "par_index": "2/m",
       "class": "n",
       "extent": "",
@@ -60790,7 +60790,7 @@
       "root_number": 923,
       "root_form": "сын",
       "mphl": "(сын).ъ",
-      "norm": "сынъ 1",
+      "norm": "сынъ1",
       "par_index": "2/m",
       "class": "n",
       "extent": "",
@@ -60869,7 +60869,7 @@
       "mphl": "(с).ь",
       "norm": "сь",
       "par_index": "0/p",
-      "class": "",
+      "class": "a",
       "extent": "",
       "reference": 798
    },
@@ -63134,7 +63134,7 @@
       "root_form": "врѣз",
       "mphl": "у.(врѣз).т.и",
       "norm": "уврѣсти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 678, 748"
@@ -64058,7 +64058,7 @@
       "root_form": "жег",
       "mphl": "у.(жег).т.и",
       "norm": "ужещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": 668
@@ -64377,7 +64377,7 @@
       "root_form": "кры",
       "mphl": "у.(кры).т.и",
       "norm": "укрыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": "679, 710"
@@ -64740,7 +64740,7 @@
       "root_form": "мрѣ",
       "mphl": "у.(мрѣ).т.и",
       "norm": "умрѣти",
-      "par_index": "4h*(",
+      "par_index": "4h*⤹",
       "class": "v",
       "extent": "",
       "reference": "756, 835"
@@ -64850,7 +64850,7 @@
       "root_form": "мы",
       "mphl": "у.(мы).т.и",
       "norm": "умыти",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 713
@@ -65312,7 +65312,7 @@
       "root_form": "рек",
       "mphl": "у.(рек).т.и",
       "norm": "урещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 673"
@@ -65390,7 +65390,7 @@
       "mphl": "",
       "norm": "усел҄ѥнаꙗ",
       "par_index": "",
-      "class": "v",
+      "class": "",
       "extent": "см. уселити",
       "reference": ""
    },
@@ -67061,7 +67061,7 @@
       "root_form": "цвит",
       "mphl": "(цвит).т.и",
       "norm": "цвисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": "62, 676"
@@ -67743,7 +67743,7 @@
       "root_form": "чит",
       "mphl": "(чит).т.и",
       "norm": "чисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -68547,7 +68547,7 @@
       "mphl": "(ч).ь.т.о",
       "norm": "чьто",
       "par_index": "0/p",
-      "class": "",
+      "class": "a",
       "extent": "",
       "reference": 792
    },
@@ -68744,7 +68744,7 @@
       "root_form": "шы",
       "mphl": "(шы).т.и",
       "norm": "шити",
-      "par_index": "4h*%)",
+      "par_index": "4h*#⤸",
       "class": "v",
       "extent": "",
       "reference": 729
@@ -69481,7 +69481,7 @@
       "root_form": "чит",
       "mphl": "из.(чит).т.и",
       "norm": "ичисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -69745,7 +69745,7 @@
       "root_form": "чит",
       "mphl": "раз.(чит).т.и",
       "norm": "ращисти",
-      "par_index": "4c*(",
+      "par_index": "4c*⤹",
       "class": "v",
       "extent": "",
       "reference": 659
@@ -70262,7 +70262,7 @@
       "root_form": "тек",
       "mphl": "об.(тек).т.и",
       "norm": "отещи",
-      "par_index": "4c@",
+      "par_index": "4c∇",
       "class": "v",
       "extent": "",
       "reference": "661, 675"
@@ -70316,9 +70316,9 @@
       "root_number": 992,
       "root_form": "тък",
       "mphl": "при.(тък).ъ",
-      "norm": "притъкъ",
-      "par_index": "",
-      "class": "v",
+      "norm": "притъкъ1",
+      "par_index": "2/m",
+      "class": "s",
       "extent": "",
       "reference": 660
    },
