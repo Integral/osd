@@ -63,6 +63,10 @@ input {
   width: 65px;
 }
 
+.select-style.par_index {
+  width: 65px;
+}
+
 #class {
   padding: 8px 8px;
   font-size: 14px;

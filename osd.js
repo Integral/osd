@@ -7,7 +7,7 @@ class OSD {
       {name: 'mphl', type: 'contains', value: ''},
       {name: 'root_number', type: 'array', value: ''},
       {name: 'root_form', type: 'array', value: ''},
-      {name: 'par_index', type: 'array', value: ''},
+      {name: 'par_index', type: 'select', value: ''},
       {name: 'class', type: 'select', value: ''},
     ]
     this.searchFields = {}
