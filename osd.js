@@ -114,7 +114,7 @@ class OSD {
           readOnly: true
         },
         {
-          data: 'extent',
+          data: 'notice',
           type: 'text',
           readOnly: true
         },
