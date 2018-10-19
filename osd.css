@@ -19,6 +19,7 @@ html, body  {
 }
 
 .filters {
+  position: relative;
   display: flex;
   margin: 0px auto 20px;
   width: 90vw;
@@ -29,6 +30,16 @@ html, body  {
   display: flex;
   margin-right: 20px;
   margin-bottom: 10px;
+}
+
+.total {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.total .counter {
+  font-weight: 600;
 }
 
 #osd {
@@ -64,7 +75,7 @@ input {
 }
 
 .select-style.par_index {
-  width: 65px;
+  width: 100px;
 }
 
 #class {

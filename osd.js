@@ -13,9 +13,12 @@ class OSD {
     this.searchFields = {}
     this.el = el
 
+    this.counterEl = $('.total .counter')
+
     this.loadJSON(res => {
       this.data = JSON.parse(res)
       this.initTable()
+      this.updateCounter(this.data.length)
     })
 
     this.filters.forEach(f => {
@@ -155,6 +158,11 @@ class OSD {
         this.filter()
       }
     }, this.table)
+
+    Handsontable.hooks.add('afterLoadData', () => {
+      const recordsLength = this.table.getData().length
+      this.updateCounter(recordsLength)
+    }, this.table)
   }
 
   attachKeyboard() {
@@ -240,6 +248,10 @@ class OSD {
       document.getElementById(f.name).value = ''
     })
     this.filter()
+  }
+
+  updateCounter(count) {
+    this.counterEl.text(count)
   }
 
   loadJSON(cb) {
