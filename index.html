@@ -17,15 +17,21 @@
         Для активации режима реверсивной сортирвоки нажмите на кнопку "Reverse Sorting", после этого данные будут сортироваться в обратном порядке. Для того чтобы вернуться к обычной сортировке нажмите снова на кнопку "Reverse Sorting" или кнопку "Reset".
       </p>
       <p>
-        Для сохранения полученной выборки вспользуйтесь кнопкой "Download". Исходные данные словаря с индексами для обычной и реверсивной сортировок можно скачать <a href="./osd_data.csv">здесь</a>.
+        Для сохранения полученной выборки вспользуйтесь кнопкой "Download". Исходные данные словаря с индексами для обычной и реверсивной сортировок доступны в формате <a href="./osd_data.csv">CSV</a> и <a href="./osd_data.csv">XLS</a>, для воспроизведения алфавита Вам понадобится установить <a href="./NewPolivanova.ttf">шрифт</a>.
       </p>
     </div>
     <div class="table-wrapper">
       <div class="filters">
         <div class="filter">
-          <input id="norm" placeholder="Norm" type="text">
+          <input id="id" placeholder="Id" type="text">
+        </div>
+        <div class="filter">
+          <input id="root_number" placeholder="Root number" type="text">
+        </div>
+        <div class="filter">
+          <input id="root_form" placeholder="Root form" type="text">
           <div class="select-style">
-            <select id="norm-opt">
+            <select id="root_form-opt">
               <option value="contains">
                 .[.].
               </option>
@@ -55,12 +61,9 @@
           </div>
         </div>
         <div class="filter">
-          <input id="root_number" placeholder="Root number" type="text">
-        </div>
-        <div class="filter">
-          <input id="root_form" placeholder="Root form" type="text">
+          <input id="norm" placeholder="Norm" type="text">
           <div class="select-style">
-            <select id="root_form-opt">
+            <select id="norm-opt">
               <option value="contains">
                 .[.].
               </option>

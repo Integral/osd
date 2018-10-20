@@ -3,6 +3,7 @@ const ALPHABET = ['а','ꙗ','б','в','г','д','е','ѥ','ж','жд','ѕ','з'
 class OSD {
   constructor(el) {
     this.filters = [
+      {name: 'id', type: 'array', value: ''},
       {name: 'norm', type: 'contains', value: ''},
       {name: 'mphl', type: 'contains', value: ''},
       {name: 'root_number', type: 'array', value: ''},
@@ -76,12 +77,12 @@ class OSD {
     const osdSettings = {
       data: this.data,
       columns: [
-        // {
-        //   data: 'id',
-        //   type: 'numeric',
-        //   className: 'htCenter',
-        //   readOnly: true
-        // },
+        {
+          data: 'id',
+          type: 'numeric',
+          className: 'htCenter',
+          readOnly: true
+        },
         {
           data: 'root_number',
           type: 'numeric',
@@ -126,7 +127,7 @@ class OSD {
       stretchH: 'all',
       width: '100%',
       autoWrapRow: true,
-      rowHeaders: true,
+      //rowHeaders: true,
       dropdownMenu: true,
       columnSorting: {
         column: 3,
@@ -134,15 +135,13 @@ class OSD {
       },
       sortIndicator: true,
       colHeaders: [
-        //'id',
+        'id',
         'root #',
         'root form',
         'mphl',
         'norm',
         'par index',
         'class',
-        //'extent',
-        'notice',
         'reference'
       ]
     }

@@ -1,8 +1,4 @@
 @font-face {
-  font-family: "Polivanova";
-  src: url('Poliv45.ttf') format('truetype');
-}
-@font-face {
   font-family: "NewPolivanova";
   src: url('NewPolivanova.ttf') format('truetype');
 }
@@ -62,6 +58,10 @@ input {
   border-radius: 4px;
   vertical-align: middle;
   box-sizing: border-box;
+}
+
+#id {
+  width: 60px;
 }
 
 #root_number,
