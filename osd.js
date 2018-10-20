@@ -117,13 +117,8 @@ class OSD {
           readOnly: true
         },
         {
-          data: 'notice',
-          type: 'text',
-          readOnly: true
-        },
-        {
           data: 'reference',
-          type: 'numeric',
+          type: 'text',
           className: 'htLeft',
           readOnly: true
         }
