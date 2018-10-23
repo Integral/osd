@@ -1,3 +1,8 @@
+import Handsontable from 'handsontable'
+import jquery from 'jquery'
+import keyboard from 'virtual-keyboard/dist/js/jquery.keyboard.js'
+import extensions from 'virtual-keyboard/dist/js/jquery.keyboard.extension-all.min.js'
+
 const ALPHABET = ['а','ꙗ','б','в','г','д','е','ѥ','ж','жд','ѕ','з','и','j','i̯','к','л','л҄','м','н','н҄','о','п','р','р҄','с','т','у','х','ц','ч','ш','щ','ъ','ы','ь','ѣ','ю','ѧ','ѩ','ѫ','ѭ','1','2']
 
 class OSD {
@@ -14,11 +19,13 @@ class OSD {
     this.searchFields = {}
     this.el = el
 
-    this.counterEl = $('.total .counter')
+    this.counterEl = jquery('.total .counter')
+    this.spinner = jquery('.spinner')
 
     this.loadJSON(res => {
       this.data = JSON.parse(res)
       this.initTable()
+      this.spinner.hide()
       this.updateCounter(this.data.length)
     })
 
@@ -51,6 +58,15 @@ class OSD {
         el.classList.remove('active')
       })
     })
+
+    jquery.keyboard.keyaction.accept = (base) => {
+      base.close(true)
+      const id = base.el.id
+      const filterId = Object.keys(this.filters).findIndex(f => this.filters[f].name === id)
+      this.filters[filterId].value = base.el.value
+      this.filter()
+      return true
+    }
 
     this.attachKeyboard()
 
@@ -93,19 +109,25 @@ class OSD {
           data: 'root_form',
           type: 'text',
           readOnly: true,
-          sortFunction: sortAlphabetically
+          columnSorting: {
+            compareFunctionFactory: sortAlphabetically
+          }
         },
         {
           data: 'mphl',
           type: 'text',
           readOnly: true,
-          sortFunction: sortAlphabetically
+          columnSorting: {
+            compareFunctionFactory: sortAlphabetically
+          }
         },
         {
           data: 'norm',
           type: 'text',
           readOnly: true,
-          sortFunction: sortAlphabetically
+          columnSorting: {
+            compareFunctionFactory: sortAlphabetically
+          }
         },
         {
           data: 'par_index',
@@ -160,7 +182,7 @@ class OSD {
   }
 
   attachKeyboard() {
-    this.kb = $('#norm,#mphl,#root_form').keyboard({
+    this.kb = jquery('#norm,#mphl,#root_form').keyboard({
     	layout: 'custom',
       autoAccept: true,
       closeByClickEvent : true,
@@ -171,9 +193,12 @@ class OSD {
           '\u0455(ѕ):lower_case_dze \u0437(з):lower_case_ze \u0438(и):lower_case_ii \u043A(к):lower_case_ka \u043B(л):lower_case_el \u043B\u0484(л҄):lower_case_el_pal \u043C(м):lower_case_em \u043D(н):lower_case_en \u043D\u0484(н҄):lower_case_en_pal \u043E(о):lower_case_o',
           '\u043F(п):lower_case_pe \u0440(р):lower_case_er \u0440\u0484(р҄):lower_case_er_pal \u0441(с):lower_case_es \u0442(т):lower_case_te \u0443(у):lower_case_u \u0445(х):lower_case_ha \u0446(ц):lower_case_tse \u0447(ч):lower_case_che \u0448(ш):lower_case_sha',
           '\u0449(щ):lower_case_shcha \u044A(ъ):lower_case_hard_sign \u044B(ы):lower_case_yeru \u044C(ь):lower_case_soft_sign \u0463(ѣ):lower_case_yat \u044E(ю):lower_case_yu \u0467(ѧ):lower_case_little_yus \u0469(ѩ):lower_case_iotified_little_yus \u046B(ѫ):lower_case_big_yus \u046D(ѭ):lower_case_iotified_big_yus',
-          '\u0458(ј):lower_case_je \u0069\u032F(i̯):lower_case_close_front_vowel'
+          '\u0458(ј):lower_case_je \u0069\u032F(i̯):lower_case_close_front_vowel {accept}'
     		]
-    	},
+      },
+      display: {
+        'accept': 'Поиск:Поиск (Shift-Enter)'
+      },
     	usePreview: false // no preveiw
     })
   }
@@ -251,7 +276,7 @@ class OSD {
   loadJSON(cb) {
     let xobj = new XMLHttpRequest()
     xobj.overrideMimeType("application/json")
-    xobj.open('GET', 'data.json', true)
+    xobj.open('GET', 'data/data.json', true)
     xobj.onreadystatechange = function() {
       if (xobj.readyState == 4 && xobj.status == "200") {
         cb(xobj.responseText)
@@ -298,11 +323,11 @@ let sortAlphabetically = function(sortOrder) {
 
   if(isReverse) {
     return function(a, b) {
-      return sortOrder ? sortByAlphabet(a[1],b[1],true) : sortByAlphabet(b[1],a[1],true)
+      return sortOrder === 'asc' ? sortByAlphabet(a,b,true) : sortByAlphabet(b,a,true)
     }
   } else {
     return function(a, b) {
-      return sortOrder ? sortByAlphabet(a[1],b[1]) : sortByAlphabet(b[1],a[1])
+      return sortOrder === 'asc' ? sortByAlphabet(a,b) : sortByAlphabet(b,a)
     }
   }
 }
