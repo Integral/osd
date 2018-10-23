@@ -46,6 +46,11 @@ html, body  {
   overflow:hidden;
 }
 
+#osd thead {
+  font-family: initial;
+}
+
+
 input {
   font-family: "NewPolivanova";
   padding: .2em .6em;
@@ -60,12 +65,16 @@ input {
   box-sizing: border-box;
 }
 
+input::placeholder {
+  font-family: initial;
+}
+
 #id {
   width: 60px;
 }
 
 #root_number {
-  width: 100px;
+  width: 110px;
   font-family: initial;
 }
 
@@ -81,7 +90,7 @@ input {
 }
 
 #class {
-  width: 80px;
+  width: 90px;
   font-family: initial;
 }
 
