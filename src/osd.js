@@ -152,19 +152,22 @@ class OSD {
       //rowHeaders: true,
       dropdownMenu: true,
       columnSorting: {
-        column: 3,
-        sortOrder: true
+        sortEmptyCells: true,
+        initialConfig: {
+          column: 3,
+          sortOrder: 'asc'
+        }
       },
       sortIndicator: true,
       colHeaders: [
-        'id',
-        'root #',
-        'root form',
-        'mphl',
-        'norm',
-        'par index',
-        'class',
-        'reference'
+        'Id',
+        'Номер корня',
+        'Вид корня',
+        'Морфонология',
+        'Графика',
+        'Индекс',
+        'Класс',
+        'Ссылка'
       ]
     }
     this.table = new Handsontable(this.el, osdSettings)
@@ -248,7 +251,7 @@ class OSD {
             if(!rowValue.endsWith(filterValue)) {
               local = false
             }
-          } else if (filterType === 'select') {
+          } else if (filterType === 'select' || filterType === 'whole') {
             if(rowValue !== filterValue) {
               local = false
             }

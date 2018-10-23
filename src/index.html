@@ -1,7 +1,10 @@
 <html>
   <head>
     <meta charset=utf-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Грамматический и корневой словарь старославянского языка</title>
+    <meta name="author" content="А.К. Поливанова">
+    <meta name="description" content="Приложение к книге Поливанова А. К. Старославянский язык: Грамматика. Словари.">
     <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="./styles/milligram.min.css">
     <link rel="stylesheet" type="text/css" href="./styles/handsontable.full.min.css">
@@ -11,13 +14,9 @@
   </head>
   <body>
     <div class="intro">
-      <h2>Словарь</h2>
-      <p>
-        Для активации режима реверсивной сортирвоки нажмите на кнопку "Reverse Sorting", после этого данные будут сортироваться в обратном порядке. Для того чтобы вернуться к обычной сортировке нажмите снова на кнопку "Reverse Sorting" или кнопку "Reset".
-      </p>
-      <p>
-        Для сохранения полученной выборки вспользуйтесь кнопкой "Download". Исходные данные словаря с индексами для обычной и реверсивной сортировок доступны в формате <a href="./osd_data.csv">CSV</a> и <a href="./osd_data.csv">XLS</a>, для воспроизведения алфавита Вам понадобится установить <a href="./NewPolivanova.ttf">шрифт</a>.
-      </p>
+      <h1>Грамматический и корневой словарь старославянского языка</h1>
+      <p>Приложение к книге <em>Поливанова А. К. Старославянский язык: Грамматика. Словари.</em> Загрузить книгу <a href="http://inslav.ru/sites/default/files/editions/2013_polivanova.pdf" target="_blank">(pdf)</a>.</p>
+      <p>Скачать исходный файл словаря (<a href="./data/osd.zip" target="_blank">xls, шрифт</a>).</p>
     </div>
     <div class="table-wrapper">
       <div class="filters">
@@ -25,35 +24,38 @@
           <input id="id" placeholder="Id" type="text">
         </div>
         <div class="filter">
-          <input id="root_number" placeholder="Root number" type="text">
+          <input id="root_number" placeholder="Номер корня" type="text">
         </div>
         <div class="filter">
-          <input id="root_form" placeholder="Root form" type="text">
+          <input id="root_form" placeholder="Вид корня" type="text">
           <select id="root_form-opt">
             <option value="contains">содержит</option>
+            <option value="whole">целиком</option>
             <option value="startsWith">начало</option>
             <option value="endsWith">конец</option>
           </select>
         </div>
         <div class="filter">
-          <input id="mphl" placeholder="Mphl" type="text">
+          <input id="mphl" placeholder="Морфонология" type="text">
           <select id="mphl-opt">
             <option value="contains">содержит</option>
+            <option value="whole">целиком</option>
             <option value="startsWith">начало</option>
             <option value="endsWith">конец</option>
           </select>
         </div>
         <div class="filter">
-          <input id="norm" placeholder="Norm" type="text">
+          <input id="norm" placeholder="Графика" type="text">
           <select id="norm-opt">
             <option value="contains">содержит</option>
+            <option value="whole">целиком</option>
             <option value="startsWith">начало</option>
             <option value="endsWith">конец</option>
           </select>
         </div>
         <div class="filter">
           <select id="par_index">
-            <option value="">Par Index</option>
+            <option value="">Индекс</option>
             <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -80,6 +82,7 @@
             <option value="2/p">2/p</option>
             <option value="3*">3*</option>
             <option value="3o">3o</option>
+            <option value="3o*">3o*</option>
             <option value="4c">4c</option>
             <option value="4c*↪">4c*↪</option>
             <option value="4c∇">4c∇</option>
@@ -95,20 +98,20 @@
         <div class="filter">
           <!-- <input id="class" placeholder="Class" type="text"> -->
           <select id="class">
-            <option value="">Class</option>
+            <option value="">Класс</option>
             <option value="n">n</option>
             <option value="v">v</option>
             <option value="a">a</option>
           </select>
         </div>
         <div class="reset">
-          <button id="reset" class="button-outline">Reset</button>
+          <button id="reset" class="button-outline">Сбросить</button>
         </div>
         <div class="sort">
-          <button id="reverse-sort" class="button-outline">Reverse Sorting</button>
+          <button id="reverse-sort" class="button-outline">Обратная сортировка</button>
         </div>
         <div class="sort">
-          <button id="download" class="button-outline">Download</button>
+          <button id="download" class="button-outline">Скачать выборку</button>
         </div>
         <div class="total">
           Найдено записей:

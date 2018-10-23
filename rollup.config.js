@@ -21,6 +21,7 @@ let config = [
       copy({
         'src/index.html': 'dist/index.html',
         'data/data.json': 'dist/data/data.json',
+        'data/osd.zip': 'dist/data/osd.zip',
         'fonts/NewPolivanova.ttf': 'dist/styles/NewPolivanova.ttf',
         'src/osd.css': 'dist/styles/osd.css',
         'node_modules/handsontable/dist/handsontable.full.min.css': 'dist/styles/handsontable.full.min.css',
