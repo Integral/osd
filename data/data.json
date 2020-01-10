@@ -15,7 +15,7 @@
     "root_form": "тък",
     "mphl": "съ.(тък).а.т.и",
     "norm": "сътъкати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 660
   },
@@ -525,7 +525,7 @@
     "root_form": "кес",
     "mphl": "(кес).ар҄.ь",
     "norm": "кесар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -1025,7 +1025,7 @@
     "root_form": "ба",
     "mphl": "(ба).л.ьj.и",
     "norm": "балии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -2075,7 +2075,7 @@
     "root_form": "благ",
     "mphl": "(благ).ост.ын҄.и",
     "norm": "благостын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -2115,7 +2115,7 @@
     "root_form": "благ",
     "mphl": "(благ).ын҄.и",
     "norm": "благын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -2535,7 +2535,7 @@
     "root_form": "бол҄",
     "mphl": "(бол҄).ьi̯.ь",
     "norm": "бол҄ии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -2605,7 +2605,7 @@
     "root_form": "бог",
     "mphl": "(бог).ын҄.и",
     "norm": "богын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -2815,7 +2815,7 @@
     "root_form": "бра",
     "mphl": "(бра).т.и",
     "norm": "брати",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 743
   },
@@ -3265,7 +3265,7 @@
     "root_form": "бьр",
     "mphl": "(бьр).а.т.и",
     "norm": "бьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 742
   },
@@ -4005,7 +4005,7 @@
     "root_form": "вин",
     "mphl": "(вин).ар҄.ь",
     "norm": "винар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -4185,7 +4185,7 @@
     "root_form": "влад",
     "mphl": "(влад).т.ел҄.ь",
     "norm": "властел҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 62
   },
@@ -4905,7 +4905,7 @@
     "root_form": "мет",
     "mphl": "въ.(мет).а.т.и",
     "norm": "въметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -5125,7 +5125,7 @@
     "root_form": "вра",
     "mphl": "(вра).т.ар҄.ь",
     "norm": "вратар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 62
   },
@@ -5965,7 +5965,7 @@
     "root_form": "бьр",
     "mphl": "въз.(бьр).а.т.и",
     "norm": "възбьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 742
   },
@@ -6425,7 +6425,7 @@
     "root_form": "да",
     "mphl": "въз.(да).т.ел҄.ь",
     "norm": "въздател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 820
   },
@@ -6745,7 +6745,7 @@
     "root_form": "дьр",
     "mphl": "въз.(дьр).а.т.и",
     "norm": "въздьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 750
   },
@@ -6835,7 +6835,7 @@
     "root_form": "иск",
     "mphl": "въз.(иск).а.т.ел҄.ь",
     "norm": "възискател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 655
   },
@@ -6845,7 +6845,7 @@
     "root_form": "иск",
     "mphl": "въз.(иск).а.т.и",
     "norm": "възискати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 655
   },
@@ -6975,7 +6975,7 @@
     "root_form": "мет",
     "mphl": "въз.(мет).а.т.и",
     "norm": "възметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -7195,7 +7195,7 @@
     "root_form": "зъв",
     "mphl": "въз.(зъв).а.т.и",
     "norm": "възъвати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 678
   },
@@ -8075,7 +8075,7 @@
     "root_form": "гор҄",
     "mphl": "(гор҄).ьi̯.ь",
     "norm": "гор҄ии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": 749
   },
@@ -8315,7 +8315,7 @@
     "root_form": "гон",
     "mphl": "(гон).и.т.ел҄.ь",
     "norm": "гонител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 683
   },
@@ -8445,7 +8445,7 @@
     "root_form": "господ",
     "mphl": "((господ)).ын҄.и",
     "norm": "господын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -8905,7 +8905,7 @@
     "root_form": "ста",
     "mphl": "въз.(ста).в.и.т.ел҄.ь",
     "norm": "въставител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 657
   },
@@ -10025,7 +10025,7 @@
     "root_form": "вѣт",
     "mphl": "(вѣт).ьj.и",
     "norm": "вѣтии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": 815
   },
@@ -10145,7 +10145,7 @@
     "root_form": "вѧщ",
     "mphl": "(вѧщ).ьi̯.ь",
     "norm": "вѧщии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -10995,7 +10995,7 @@
     "root_form": "гръд",
     "mphl": "(гръд).ын҄.и",
     "norm": "гръдын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -11035,7 +11035,7 @@
     "root_form": "грън",
     "mphl": "(грън).ьч.ар҄.ь",
     "norm": "гръньчар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -11275,7 +11275,7 @@
     "root_form": "дьр",
     "mphl": "(дьр).а.т.и",
     "norm": "дьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 750
   },
@@ -11365,7 +11365,7 @@
     "root_form": "вод",
     "mphl": "до.(вод).и.т.ел҄.ь",
     "norm": "доводител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 661
   },
@@ -11415,7 +11415,7 @@
     "root_form": "жьд",
     "mphl": "до.(жьд).а.т.и",
     "norm": "дожьдати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 659
   },
@@ -11515,7 +11515,7 @@
     "root_form": "губ",
     "mphl": "(губ).и.т.ел҄.ь",
     "norm": "губител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 705
   },
@@ -11685,7 +11685,7 @@
     "root_form": "да",
     "mphl": "(да).т.ел҄.ь",
     "norm": "дател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 820
   },
@@ -12255,7 +12255,7 @@
     "root_form": "сад",
     "mphl": "до.(сад).и.т.ел҄.ь",
     "norm": "досадител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 832
   },
@@ -12955,7 +12955,7 @@
     "root_form": "дѣ",
     "mphl": "(дѣ).л.а.т.ел҄.ь",
     "norm": "дѣлател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 822
   },
@@ -12975,7 +12975,7 @@
     "root_form": "дѣл",
     "mphl": "(дѣл).и.т.ел҄.ь",
     "norm": "дѣлител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -13355,7 +13355,7 @@
     "root_form": "зъв",
     "mphl": "(зъв).а.т.и",
     "norm": "зъвати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 678
   },
@@ -13585,7 +13585,7 @@
     "root_form": "жи",
     "mphl": "(жи).т.ел҄.ь",
     "norm": "жител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 707
   },
@@ -13745,7 +13745,7 @@
     "root_form": "жрь",
     "mphl": "(жрь).т.и",
     "norm": "жрьти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": "62, 752"
   },
@@ -13825,7 +13825,7 @@
     "root_form": "жьд",
     "mphl": "(жьд).а.т.и",
     "norm": "жьдати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 659
   },
@@ -13965,7 +13965,7 @@
     "root_form": "жѧ",
     "mphl": "(жѧ).т.ел҄.ь",
     "norm": "жѧтел҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 683
   },
@@ -13975,7 +13975,7 @@
     "root_form": "жѧ",
     "mphl": "(жѧ).т.и",
     "norm": "жѧти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 683
   },
@@ -14455,7 +14455,7 @@
     "root_form": "кла",
     "mphl": "за.(кла).т.и",
     "norm": "заклати",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 775
   },
@@ -14805,7 +14805,7 @@
     "root_form": "пьр",
     "mphl": "за.(пьр).а.т.и",
     "norm": "запьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 761
   },
@@ -15135,7 +15135,7 @@
     "root_form": "щит",
     "mphl": "за.(щит).и.т.ел҄.ь",
     "norm": "защитител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -15315,7 +15315,7 @@
     "root_form": "зижд",
     "mphl": "(зижд).и.т.ел҄.ь",
     "norm": "зиждител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 659
   },
@@ -15535,7 +15535,7 @@
     "root_form": "зьд",
     "mphl": "(зьд).а.т.ел҄.ь",
     "norm": "зьдател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 659
   },
@@ -15725,7 +15725,7 @@
     "root_form": "бав",
     "mphl": "из.(бав).и.т.ел҄.ь",
     "norm": "избавител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 808
   },
@@ -15885,7 +15885,7 @@
     "root_form": "бьр",
     "mphl": "из.(бьр).а.т.и",
     "norm": "избьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 742
   },
@@ -16155,7 +16155,7 @@
     "root_form": "кръм",
     "mphl": "(кръм).ьч.ьj.и",
     "norm": "кръмьчии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -16225,7 +16225,7 @@
     "root_form": "крьст",
     "mphl": "(крьст).ьj.ѣн.ын҄.и",
     "norm": "крьстиꙗнын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -16255,7 +16255,7 @@
     "root_form": "крьст",
     "mphl": "(крьст).и.т.ел҄.ь",
     "norm": "крьстител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -16835,7 +16835,7 @@
     "root_form": "дьр",
     "mphl": "из.(дьр).а.т.и",
     "norm": "издьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 750
   },
@@ -16865,7 +16865,7 @@
     "root_form": "иск",
     "mphl": "из.(иск).а.т.и",
     "norm": "изискати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 655
   },
@@ -16955,7 +16955,7 @@
     "root_form": "мет",
     "mphl": "из.(мет).а.т.и",
     "norm": "изметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -17515,7 +17515,7 @@
     "root_form": "иск",
     "mphl": "(иск).а.т.и",
     "norm": "искати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 655
   },
@@ -17525,7 +17525,7 @@
     "root_form": "кла",
     "mphl": "из.(кла).т.и",
     "norm": "исклати",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 775
   },
@@ -17665,7 +17665,7 @@
     "root_form": "кус",
     "mphl": "из.(кус).и.т.ел҄.ь",
     "norm": "искусител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -17965,7 +17965,7 @@
     "root_form": "прав",
     "mphl": "из.(прав).и.т.ел҄.ь",
     "norm": "исправител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -18335,7 +18335,7 @@
     "root_form": "тък",
     "mphl": "из.(тък).а.т.и",
     "norm": "истъкати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 660
   },
@@ -18505,7 +18505,7 @@
     "root_form": "цѣл",
     "mphl": "из.(цѣл).и.т.ел҄.ь",
     "norm": "ицѣлител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -18845,7 +18845,7 @@
     "root_form": "кл҄евет",
     "mphl": "((кл҄евет)).ар҄.ь",
     "norm": "кл҄ѥветар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -18895,7 +18895,7 @@
     "root_form": "кл҄уч",
     "mphl": "(кл҄уч).ар҄.ь",
     "norm": "кл҄ючар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -19025,7 +19025,7 @@
     "root_form": "каз",
     "mphl": "(каз).а.т.ел҄.ь",
     "norm": "казател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -19365,7 +19365,7 @@
     "root_form": "кла",
     "mphl": "(кла).т.и",
     "norm": "клати",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 775
   },
@@ -19575,7 +19575,7 @@
     "root_form": "ков",
     "mphl": "(ков).а.т.и",
     "norm": "ковати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": ""
   },
@@ -19965,7 +19965,7 @@
     "root_form": "кораб",
     "mphl": "((кораб)).ьч.ьj.и",
     "norm": "корабьчии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -20155,7 +20155,7 @@
     "root_form": "краб",
     "mphl": "(краб).ьj.и",
     "norm": "крабии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -20625,7 +20625,7 @@
     "root_form": "кън҄иг",
     "mphl": "((кън҄иг)).ъч.ьj.и",
     "norm": "кън҄игъчии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -20835,7 +20835,7 @@
     "root_form": "лад",
     "mphl": "(лад).ьj.и",
     "norm": "ладии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": 807
   },
@@ -20895,7 +20895,7 @@
     "root_form": "ла",
     "mphl": "(ла).т.ел҄.ь",
     "norm": "лател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 653
   },
@@ -21475,7 +21475,7 @@
     "root_form": "луч",
     "mphl": "(луч).ьi̯.ь",
     "norm": "лучии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -21615,7 +21615,7 @@
     "root_form": "льг",
     "mphl": "(льг).ын҄.и",
     "norm": "льгын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -22085,7 +22085,7 @@
     "root_form": "мет",
     "mphl": "(мет).а.т.и",
     "norm": "метати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -22135,7 +22135,7 @@
     "root_form": "мил",
     "mphl": "(мил).ост.ын҄.и",
     "norm": "милостын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -22485,7 +22485,7 @@
     "root_form": "мѫч",
     "mphl": "(мѫч).и.т.ел҄.ь",
     "norm": "мѫчител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 696
   },
@@ -22665,7 +22665,7 @@
     "root_form": "мльн",
     "mphl": "(мльн).ьj.и",
     "norm": "мльнии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -22745,7 +22745,7 @@
     "root_form": "млѣ",
     "mphl": "(млѣ).т.и",
     "norm": "млѣти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 777
   },
@@ -23485,7 +23485,7 @@
     "root_form": "мыт",
     "mphl": "(мыт).ар҄.ь",
     "norm": "мытар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -23545,7 +23545,7 @@
     "root_form": "мьн҄",
     "mphl": "(мьн҄).ьi̯.ь",
     "norm": "мьн҄ии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -25145,7 +25145,7 @@
     "root_form": "тък",
     "mphl": "на.(тък).а.т.и",
     "norm": "натъкати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 660
   },
@@ -25685,7 +25685,7 @@
     "root_form": "рѣт",
     "mphl": "об.(рѣт).а.т.ел҄.ь",
     "norm": "обрѣтател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 831
   },
@@ -27545,7 +27545,7 @@
     "root_form": "вад",
     "mphl": "об.(вад).и.т.ел҄.ь",
     "norm": "обадител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -27695,7 +27695,7 @@
     "root_form": "иск",
     "mphl": "об.(иск).а.т.и",
     "norm": "обискати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 655
   },
@@ -28035,7 +28035,7 @@
     "root_form": "лич",
     "mphl": "об.(лич).и.т.ел҄.ь",
     "norm": "обличител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -28535,7 +28535,7 @@
     "root_form": "дад",
     "mphl": "по.(дад).и.т.ел҄.ь",
     "norm": "подадител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 820
   },
@@ -28555,7 +28555,7 @@
     "root_form": "да",
     "mphl": "по.(да).т.ел҄.ь",
     "norm": "подател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 820
   },
@@ -29255,7 +29255,7 @@
     "root_form": "дьр",
     "mphl": "об.(дьр).а.т.и",
     "norm": "одьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 750
   },
@@ -29615,7 +29615,7 @@
     "root_form": "ков",
     "mphl": "об.(ков).а.т.и",
     "norm": "оковати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": ""
   },
@@ -30745,7 +30745,7 @@
     "root_form": "снов",
     "mphl": "об.(снов).а.т.и",
     "norm": "основати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 721
   },
@@ -31425,7 +31425,7 @@
     "root_form": "трь",
     "mphl": "об.(трь).т.и",
     "norm": "отрьти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 768
   },
@@ -31865,7 +31865,7 @@
     "root_form": "мет",
     "mphl": "отъ.(мет).а.т.и",
     "norm": "отъметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -34075,7 +34075,7 @@
     "root_form": "бѣд",
     "mphl": "по.(бѣд).и.т.ел҄.ь",
     "norm": "побѣдител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -34415,7 +34415,7 @@
     "root_form": "поган",
     "mphl": "((поган)).ын҄.и",
     "norm": "поганын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -34525,7 +34525,7 @@
     "root_form": "греб",
     "mphl": "по.(греб).и.т.ел҄.ь",
     "norm": "погребител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 661
   },
@@ -34885,7 +34885,7 @@
     "root_form": "драж",
     "mphl": "по.(драж).а.т.ел҄.ь",
     "norm": "подражател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -34995,7 +34995,7 @@
     "root_form": "ѧ",
     "mphl": "подъ.(i̯ѧ).т.ел҄.ь",
     "norm": "подъѩтел҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 655
   },
@@ -35535,7 +35535,7 @@
     "root_form": "жрь",
     "mphl": "по.(жрь).т.и",
     "norm": "пожрьти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": "62, 752"
   },
@@ -35555,7 +35555,7 @@
     "root_form": "жьд",
     "mphl": "по.(жьд).а.т.и",
     "norm": "пожьдати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 659
   },
@@ -35565,7 +35565,7 @@
     "root_form": "жѧ",
     "mphl": "по.(жѧ).т.и",
     "norm": "пожѧти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 683
   },
@@ -35705,7 +35705,7 @@
     "root_form": "зъв",
     "mphl": "по.(зъв).а.т.и",
     "norm": "позъвати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 678
   },
@@ -35755,7 +35755,7 @@
     "root_form": "иск",
     "mphl": "по.(иск).а.т.и",
     "norm": "поискати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 655
   },
@@ -35975,7 +35975,7 @@
     "root_form": "ков",
     "mphl": "по.(ков).а.т.и",
     "norm": "поковати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": ""
   },
@@ -36035,7 +36035,7 @@
     "root_form": "кров",
     "mphl": "по.(кров).и.т.ел҄.ь",
     "norm": "покровител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 679
   },
@@ -36425,7 +36425,7 @@
     "root_form": "мет",
     "mphl": "по.(мет).а.т.и",
     "norm": "пометати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -36945,7 +36945,7 @@
     "root_form": "пьр",
     "mphl": "по.(пьр).а.т.и",
     "norm": "попьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 761
   },
@@ -38715,7 +38715,7 @@
     "root_form": "прав",
     "mphl": "(прав).и.т.ел҄.ь",
     "norm": "правител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -38765,7 +38765,7 @@
     "root_form": "прав",
     "mphl": "(прав).ын҄.и",
     "norm": "правын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -38985,7 +38985,7 @@
     "root_form": "приj",
     "mphl": "(приj).а.т.ел҄.ь",
     "norm": "приꙗтел҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -39125,7 +39125,7 @@
     "root_form": "бьр",
     "mphl": "при.(бьр).а.т.и",
     "norm": "прибьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 742
   },
@@ -39545,7 +39545,7 @@
     "root_form": "зъв",
     "mphl": "при.(зъв).а.т.и",
     "norm": "призъвати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 678
   },
@@ -39705,7 +39705,7 @@
     "root_form": "мет",
     "mphl": "при.(мет).а.т.и",
     "norm": "приметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -41055,7 +41055,7 @@
     "root_form": "зъв",
     "mphl": "про.(зъв).а.т.и",
     "norm": "прозъвати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 678
   },
@@ -41605,7 +41605,7 @@
     "root_form": "вѣд",
     "mphl": "про.по.(вѣд).а.т.ел҄.ь",
     "norm": "проповѣдател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -41875,7 +41875,7 @@
     "root_form": "прос",
     "mphl": "(прос).и.т.ел҄.ь",
     "norm": "просител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 657
   },
@@ -42055,7 +42055,7 @@
     "root_form": "прост",
     "mphl": "(прост).ын҄.и",
     "norm": "простын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": 657
   },
@@ -42375,7 +42375,7 @@
     "root_form": "бра",
     "mphl": "прѣ.(бра).т.и",
     "norm": "прѣбрати",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 743
   },
@@ -42555,7 +42555,7 @@
     "root_form": "выш",
     "mphl": "прѣ.(выш).ьi̯.ь",
     "norm": "прѣвышии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -42715,7 +42715,7 @@
     "root_form": "да",
     "mphl": "прѣ.(да).т.ел҄.ь",
     "norm": "прѣдател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 820
   },
@@ -43085,7 +43085,7 @@
     "root_form": "дьр",
     "mphl": "прѣ.(дьр).а.т.и",
     "norm": "прѣдьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 750
   },
@@ -43515,7 +43515,7 @@
     "root_form": "мет",
     "mphl": "прѣ.(мет).а.т.и",
     "norm": "прѣметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -44535,7 +44535,7 @@
     "root_form": "трь",
     "mphl": "прѣ.(трь).т.и",
     "norm": "прѣтрьти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 768
   },
@@ -44775,7 +44775,7 @@
     "root_form": "пуст",
     "mphl": "(пуст).ын҄.и",
     "norm": "пустын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -44925,7 +44925,7 @@
     "root_form": "пьр",
     "mphl": "(пьр).а.т.и",
     "norm": "пьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 760
   },
@@ -45405,7 +45405,7 @@
     "root_form": "раб",
     "mphl": "(раб).ын҄.и",
     "norm": "рабын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -45955,7 +45955,7 @@
     "root_form": "дьр",
     "mphl": "раз.(дьр).а.т.и",
     "norm": "раздьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 750
   },
@@ -46095,7 +46095,7 @@
     "root_form": "мет",
     "mphl": "раз.(мет).а.т.и",
     "norm": "разметати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 661
   },
@@ -46645,7 +46645,7 @@
     "root_form": "пьр",
     "mphl": "раз.(пьр).а.т.и",
     "norm": "распьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 761
   },
@@ -47345,7 +47345,7 @@
     "root_form": "род",
     "mphl": "(род).и.т.ел҄.ь",
     "norm": "родител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 657
   },
@@ -47625,7 +47625,7 @@
     "root_form": "рыб",
     "mphl": "(рыб).ар҄.ь",
     "norm": "рыбар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -47715,7 +47715,7 @@
     "root_form": "рьв",
     "mphl": "(рьв).ьн.и.т.ел҄.ь",
     "norm": "рьвьнител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -47765,7 +47765,7 @@
     "root_form": "сѫд",
     "mphl": "(сѫд).ьj.и",
     "norm": "сѫдии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -47805,7 +47805,7 @@
     "root_form": "сѫд",
     "mphl": "(сѫд).и.т.ел҄.ь",
     "norm": "сѫдител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -48045,7 +48045,7 @@
     "root_form": "сам",
     "mphl": "(сам).ъч.ьj.и",
     "norm": "самъчии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -48145,7 +48145,7 @@
     "root_form": "свин",
     "mphl": "(свин).ьj.и",
     "norm": "свинии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -48245,7 +48245,7 @@
     "root_form": "свобод",
     "mphl": "((свобод)).и.т.ел҄.ь",
     "norm": "свободител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -48345,7 +48345,7 @@
     "root_form": "свѣт",
     "mphl": "(свѣт).и.т.ел҄.ь",
     "norm": "свѣтител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 674
   },
@@ -48475,7 +48475,7 @@
     "root_form": "свѧт",
     "mphl": "(свѧт).и.т.ел҄.ь",
     "norm": "свѧтител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -48525,7 +48525,7 @@
     "root_form": "свѧт",
     "mphl": "(свѧт).ын҄.и",
     "norm": "свѧтын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -48915,7 +48915,7 @@
     "root_form": "сѣд",
     "mphl": "сѫ.(сѣд).ын҄.и",
     "norm": "сѫсѣдын҄и",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": 832
   },
@@ -49585,7 +49585,7 @@
     "root_form": "служ",
     "mphl": "(служ).и.т.ел҄.ь",
     "norm": "служител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -49975,7 +49975,7 @@
     "root_form": "сокач",
     "mphl": "((сокач)).ьj.и",
     "norm": "сокачии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -50785,7 +50785,7 @@
     "root_form": "строj",
     "mphl": "(строj).и.т.ел҄.ь",
     "norm": "строител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 741
   },
@@ -51185,7 +51185,7 @@
     "root_form": "сул҄",
     "mphl": "(сул҄).ьi̯.ь",
     "norm": "сул҄ии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -51315,7 +51315,7 @@
     "root_form": "сул",
     "mphl": "(сул).ѣj.ь",
     "norm": "сулѣи",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -51575,7 +51575,7 @@
     "root_form": "бьр",
     "mphl": "съ.(бьр).а.т.и",
     "norm": "събьрати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 742
   },
@@ -51745,7 +51745,7 @@
     "root_form": "врьш",
     "mphl": "съ.(врьш).и.т.ел҄.ь",
     "norm": "съврьшител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 62
   },
@@ -51915,7 +51915,7 @@
     "root_form": "вѣд",
     "mphl": "съ.(вѣд).ѣ.т.ел҄.ь",
     "norm": "съвѣдѣтел҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -52405,7 +52405,7 @@
     "root_form": "дѣ",
     "mphl": "съ.(дѣ).т.ел҄.ь",
     "norm": "съдѣтел҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 822
   },
@@ -52535,7 +52535,7 @@
     "root_form": "зъв",
     "mphl": "съ.(зъв).а.т.и",
     "norm": "съзъвати",
-    "par_index": "3o*",
+    "par_index": "3°*",
     "class": "v",
     "reference": 678
   },
@@ -52565,7 +52565,7 @@
     "root_form": "зьд",
     "mphl": "съ.(зьд).а.т.ел҄.ь",
     "norm": "съзьдател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 659
   },
@@ -52625,7 +52625,7 @@
     "root_form": "каз",
     "mphl": "съ.(каз).а.т.ел҄.ь",
     "norm": "съказател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -53155,7 +53155,7 @@
     "root_form": "млѣ",
     "mphl": "съ.(млѣ).т.и",
     "norm": "съмлѣти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 777
   },
@@ -53445,7 +53445,7 @@
     "root_form": "иск",
     "mphl": "сън.(иск).а.т.и",
     "norm": "сънискати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 655
   },
@@ -53675,7 +53675,7 @@
     "root_form": "пас",
     "mphl": "съ.(пас).и.т.ел҄.ь",
     "norm": "съпасител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -53775,7 +53775,7 @@
     "root_form": "бра",
     "mphl": "съ.по.(бра).т.и",
     "norm": "съпобрати",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 743
   },
@@ -53895,7 +53895,7 @@
     "root_form": "т",
     "mphl": "(т).ач.ѣj.ь",
     "norm": "тачаи",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": 801
   },
@@ -54595,7 +54595,7 @@
     "root_form": "със",
     "mphl": "(със).а.т.и",
     "norm": "съсати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": ""
   },
@@ -54975,7 +54975,7 @@
     "root_form": "трь",
     "mphl": "съ.(трь).т.и",
     "norm": "сътрьти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 768
   },
@@ -55825,7 +55825,7 @@
     "root_form": "том",
     "mphl": "(том).и.т.ел҄.ь",
     "norm": "томител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -56355,7 +56355,7 @@
     "root_form": "трь",
     "mphl": "(трь).т.и",
     "norm": "трьти",
-    "par_index": "4hj",
+    "par_index": "4h•",
     "class": "v",
     "reference": 768
   },
@@ -56575,7 +56575,7 @@
     "root_form": "тък",
     "mphl": "(тък).а.т.и",
     "norm": "тъкати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 660
   },
@@ -56705,7 +56705,7 @@
     "root_form": "тыс",
     "mphl": "(тыс).ѫщ.и",
     "norm": "тысѫщи//",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -56725,7 +56725,7 @@
     "root_form": "тыс",
     "mphl": "(тыс).ѧщ.и",
     "norm": "тысѧщи//",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -56765,7 +56765,7 @@
     "root_form": "тьл",
     "mphl": "(тьл).и.т.ел҄.ь",
     "norm": "тьлител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -57005,7 +57005,7 @@
     "root_form": "тѧж",
     "mphl": "(тѧж).ѣ.т.ел҄.ь",
     "norm": "тѧжател҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 701
   },
@@ -57065,7 +57065,7 @@
     "root_form": "ун҄",
     "mphl": "(ун҄).ьi̯.ь",
     "norm": "ун҄ии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -59415,7 +59415,7 @@
     "root_form": "ръв",
     "mphl": "у.(ръв).а.т.и",
     "norm": "уръвати",
-    "par_index": "3o",
+    "par_index": "3°",
     "class": "v",
     "reference": 717
   },
@@ -60225,7 +60225,7 @@
     "root_form": "утр",
     "mphl": "(утр).ѣj.ь",
     "norm": "утрѣи",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": 655
   },
@@ -60475,7 +60475,7 @@
     "root_form": "уч",
     "mphl": "(уч).и.т.ел҄.ь",
     "norm": "учител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": 814
   },
@@ -60745,7 +60745,7 @@
     "root_form": "хран",
     "mphl": "(хран).и.т.ел҄.ь",
     "norm": "хранител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -61095,7 +61095,7 @@
     "root_form": "цѣл",
     "mphl": "(цѣл).и.т.ел҄.ь",
     "norm": "цѣлител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -61245,7 +61245,7 @@
     "root_form": "цѣс",
     "mphl": "(цѣс).ар҄.ь",
     "norm": "цѣсар҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -61605,7 +61605,7 @@
     "root_form": "чист",
     "mphl": "(чист).и.т.ел҄.ь",
     "norm": "чистител҄ь",
-    "par_index": "2/m+",
+    "par_index": "2/m*",
     "class": "n",
     "reference": ""
   },
@@ -62405,7 +62405,7 @@
     "root_form": "шар",
     "mphl": "(шар).ъч.ьj.и",
     "norm": "шаръчии",
-    "par_index": "2/f+",
+    "par_index": "2/f*",
     "class": "n",
     "reference": ""
   },
@@ -63855,7 +63855,7 @@
     "root_form": "вѧщ",
     "mphl": "наи.(вѧщ).ьi̯.ь",
     "norm": "наивѧщии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -63865,7 +63865,7 @@
     "root_form": "скор",
     "mphl": "наи.(скор).ѣj.ь",
     "norm": "наискорѣи",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },
@@ -63945,7 +63945,7 @@
     "root_form": "трѣбл҄",
     "mphl": "наи.(трѣбл҄).ьi̯.ь",
     "norm": "наитрѣбл҄ии",
-    "par_index": "2/a++",
+    "par_index": "2/a**",
     "class": "a",
     "reference": ""
   },

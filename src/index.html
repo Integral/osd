@@ -15,107 +15,110 @@
   <body>
     <div class="intro">
       <h1>Грамматический и корневой словарь старославянского языка</h1>
-      <p>Приложение к книге <em>Поливанова А. К. Старославянский язык: Грамматика. Словари.</em> Загрузить книгу <a href="http://inslav.ru/sites/default/files/editions/2013_polivanova.pdf" target="_blank">(pdf)</a>.</p>
-      <p>Скачать исходный файл словаря (<a href="./data/osd.zip" target="_blank">xls, шрифт</a>).</p>
+      <p>Приложение к книге <em>Поливанова А. К. Старославянский язык: Грамматика. Словари.</em> Загрузить книгу <a href="http://inslav.ru/sites/default/files/editions/2013_polivanova.pdf" target="_blank">(pdf)</a>. Скачать исходный файл словаря (<a href="./data/osd.zip" target="_blank">xls, шрифт</a>).</p>
     </div>
     <div class="table-wrapper">
-      <div class="filters">
-        <div class="filter">
-          <input id="id" placeholder="Id" type="text">
+      <div class="controls">
+        <div class="filters">
+          <div class="filter">
+            <input id="id" placeholder="Id" type="text">
+          </div>
+          <div class="filter">
+            <input id="root_number" placeholder="Номер корня" type="text">
+          </div>
+          <div class="filter">
+            <input id="root_form" placeholder="Вид корня" type="text">
+            <select id="root_form-opt">
+              <option value="contains">содержит</option>
+              <option value="whole">целиком</option>
+              <option value="startsWith">начало</option>
+              <option value="endsWith">конец</option>
+            </select>
+          </div>
+          <div class="filter">
+            <input id="mphl" placeholder="Морфонология" type="text">
+            <select id="mphl-opt">
+              <option value="contains">содержит</option>
+              <option value="whole">целиком</option>
+              <option value="startsWith">начало</option>
+              <option value="endsWith">конец</option>
+            </select>
+          </div>
+          <div class="filter">
+            <input id="norm" placeholder="Графика" type="text">
+            <select id="norm-opt">
+              <option value="contains">содержит</option>
+              <option value="whole">целиком</option>
+              <option value="startsWith">начало</option>
+              <option value="endsWith">конец</option>
+            </select>
+          </div>
+          <div class="filter">
+            <select id="par_index">
+              <option value="">Индекс</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="0/a">0/a</option>
+              <option value="0/f">0/f</option>
+              <option value="0/n">0/n</option>
+              <option value="0/p">0/p</option>
+              <option value="0/s">0/s</option>
+              <option value="1/a">1/a</option>
+              <option value="1/f">1/f</option>
+              <option value="1/m">1/m</option>
+              <option value="2/a">2/a</option>
+              <option value="2/a++">2/a++</option>
+              <option value="2/f">2/f</option>
+              <option value="2/f+">2/f+</option>
+              <option value="2/m">2/m</option>
+              <option value="2/m+">2/m+</option>
+              <option value="2/n">2/n</option>
+              <option value="2/p">2/p</option>
+              <option value="3*">3*</option>
+              <option value="3o">3o</option>
+              <option value="3o*">3o*</option>
+              <option value="4c">4c</option>
+              <option value="4c*↪">4c*↪</option>
+              <option value="4c∇">4c∇</option>
+              <option value="4h">4h</option>
+              <option value="4h*#↩">4h*#↩</option>
+              <option value="4h*↩">4h*↩</option>
+              <option value="4h*↪">4h*↪</option>
+              <option value="4h↩">4h↩</option>
+              <option value="4hj">4hj</option>
+              <option value="4v">4v</option>
+            </select>
+          </div>
+          <div class="filter">
+            <!-- <input id="class" placeholder="Class" type="text"> -->
+            <select id="class">
+              <option value="">Класс</option>
+              <option value="n">n</option>
+              <option value="v">v</option>
+              <option value="a">a</option>
+            </select>
+          </div>
+          <div class="sort">
+            <button id="reverse-sort" class="button-outline">Обратная сортировка</button>
+          </div>
         </div>
-        <div class="filter">
-          <input id="root_number" placeholder="Номер корня" type="text">
-        </div>
-        <div class="filter">
-          <input id="root_form" placeholder="Вид корня" type="text">
-          <select id="root_form-opt">
-            <option value="contains">содержит</option>
-            <option value="whole">целиком</option>
-            <option value="startsWith">начало</option>
-            <option value="endsWith">конец</option>
-          </select>
-        </div>
-        <div class="filter">
-          <input id="mphl" placeholder="Морфонология" type="text">
-          <select id="mphl-opt">
-            <option value="contains">содержит</option>
-            <option value="whole">целиком</option>
-            <option value="startsWith">начало</option>
-            <option value="endsWith">конец</option>
-          </select>
-        </div>
-        <div class="filter">
-          <input id="norm" placeholder="Графика" type="text">
-          <select id="norm-opt">
-            <option value="contains">содержит</option>
-            <option value="whole">целиком</option>
-            <option value="startsWith">начало</option>
-            <option value="endsWith">конец</option>
-          </select>
-        </div>
-        <div class="filter">
-          <select id="par_index">
-            <option value="">Индекс</option>
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="0/a">0/a</option>
-            <option value="0/f">0/f</option>
-            <option value="0/n">0/n</option>
-            <option value="0/p">0/p</option>
-            <option value="0/s">0/s</option>
-            <option value="1/a">1/a</option>
-            <option value="1/f">1/f</option>
-            <option value="1/m">1/m</option>
-            <option value="2/a">2/a</option>
-            <option value="2/a++">2/a++</option>
-            <option value="2/f">2/f</option>
-            <option value="2/f+">2/f+</option>
-            <option value="2/m">2/m</option>
-            <option value="2/m+">2/m+</option>
-            <option value="2/n">2/n</option>
-            <option value="2/p">2/p</option>
-            <option value="3*">3*</option>
-            <option value="3o">3o</option>
-            <option value="3o*">3o*</option>
-            <option value="4c">4c</option>
-            <option value="4c*↪">4c*↪</option>
-            <option value="4c∇">4c∇</option>
-            <option value="4h">4h</option>
-            <option value="4h*#↩">4h*#↩</option>
-            <option value="4h*↩">4h*↩</option>
-            <option value="4h*↪">4h*↪</option>
-            <option value="4h↩">4h↩</option>
-            <option value="4hj">4hj</option>
-            <option value="4v">4v</option>
-          </select>
-        </div>
-        <div class="filter">
-          <!-- <input id="class" placeholder="Class" type="text"> -->
-          <select id="class">
-            <option value="">Класс</option>
-            <option value="n">n</option>
-            <option value="v">v</option>
-            <option value="a">a</option>
-          </select>
-        </div>
-        <div class="reset">
-          <button id="reset" class="button-outline">Сбросить</button>
-        </div>
-        <div class="sort">
-          <button id="reverse-sort" class="button-outline">Обратная сортировка</button>
-        </div>
-        <div class="sort">
-          <button id="download" class="button-outline">Скачать выборку</button>
-        </div>
-        <div class="total">
-          Найдено записей:
-          <span class="counter">0</span>
+        <div class="actions">
+          <div class="reset">
+            <button id="reset" class="button-outline">Сбросить</button>
+          </div>
+          <div class="sort">
+            <button id="download" class="button-outline">Скачать выборку</button>
+          </div>
+          <div class="total">
+            Найдено записей:
+            <span class="counter">0</span>
+          </div>
         </div>
       </div>
       <div id="osd">

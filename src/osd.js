@@ -3,7 +3,7 @@ import jquery from 'jquery'
 import keyboard from 'virtual-keyboard/dist/js/jquery.keyboard.js'
 import extensions from 'virtual-keyboard/dist/js/jquery.keyboard.extension-all.min.js'
 
-const ALPHABET = ['а','ꙗ','б','в','г','д','е','ѥ','ж','жд','ѕ','з','и','j','i̯','к','л','л҄','м','н','н҄','о','п','р','р҄','с','т','у','х','ц','ч','ш','щ','ъ','ы','ь','ѣ','ю','ѧ','ѩ','ѫ','ѭ','1','2']
+const ALPHABET = ['(', ')', '.', '*', 'а','ꙗ','б','в','г','д','е','ѥ','ж','жд','ѕ','з','и','j','i̯','к','л','л҄','м','н','н҄','о','п','р','р҄','с','т','у','х','ц','ч','ш','щ','ъ','ы','ь','ѣ','ю','ѧ','ѩ','ѫ','ѭ','1','2']
 
 class OSD {
   constructor(el) {
@@ -12,7 +12,7 @@ class OSD {
       {name: 'norm', type: 'contains', value: ''},
       {name: 'mphl', type: 'contains', value: ''},
       {name: 'root_number', type: 'array', value: ''},
-      {name: 'root_form', type: 'array', value: ''},
+      {name: 'root_form', type: 'contains', value: ''},
       {name: 'par_index', type: 'select', value: ''},
       {name: 'class', type: 'select', value: ''},
     ]
@@ -31,7 +31,7 @@ class OSD {
 
     this.filters.forEach(f => {
       if(f.type !== 'select') {
-        Handsontable.dom.addEvent(document.getElementById(f.name), 'keyup', e => {
+        Handsontable.dom.addEvent(document.getElementById(f.name), 'custom-keyup', e => {
           f.value = "" + e.target.value
           this.filter()
         })
@@ -154,7 +154,7 @@ class OSD {
       columnSorting: {
         sortEmptyCells: true,
         initialConfig: {
-          column: 3,
+          column: 4,
           sortOrder: 'asc'
         }
       },
@@ -178,6 +178,16 @@ class OSD {
       }
     }, this.table)
 
+    Handsontable.hooks.add('beforeColumnSort', (currentSortConfig, destinationSortConfigs) => {
+      if (currentSortConfig.length > 0 && destinationSortConfigs.length === 0) {
+        const columnSortPlugin = this.table.getPlugin('columnSorting')
+        const firstColumnConfig = currentSortConfig[0]
+        firstColumnConfig.sortOrder = 'asc'
+        columnSortPlugin.sort(firstColumnConfig)
+        return false
+      }
+    }, this.table)
+
     Handsontable.hooks.add('afterLoadData', () => {
       const recordsLength = this.table.getData().length
       this.updateCounter(recordsLength)
@@ -188,21 +198,26 @@ class OSD {
     this.kb = jquery('#norm,#mphl,#root_form').keyboard({
     	layout: 'custom',
       autoAccept: true,
-      closeByClickEvent : true,
+      closeByClickEvent: true,
     	customLayout: {
     		'normal' : [
     			// "n(a):title_or_tooltip"; n = new key, (a) = actual key, ":label" = title_or_tooltip (use an underscore "_" in place of a space " ")
-    			'\u0430(а):lower_case_а \uA657(ꙗ):lower_case_iotified_a \u0431(б):lower_case_be \u0432(в):lower_case_ve \u0432(г):lower_case_ghe \u0434(д):lower_case_de \u0435(е):lower_case_ie \u0465(ѥ):lower_case_iotified_e \u0436(ж):lower_case_zhe \u0436\u0434(жд):lower_case_zhd',
+    			'\u0430(а):lower_case_а \uA657(ꙗ):lower_case_iotified_a \u0431(б):lower_case_be \u0432(в):lower_case_ve \u0433(г):lower_case_ghe \u0434(д):lower_case_de \u0435(е):lower_case_ie \u0465(ѥ):lower_case_iotified_e \u0436(ж):lower_case_zhe \u0436\u0434(жд):lower_case_zhd',
           '\u0455(ѕ):lower_case_dze \u0437(з):lower_case_ze \u0438(и):lower_case_ii \u043A(к):lower_case_ka \u043B(л):lower_case_el \u043B\u0484(л҄):lower_case_el_pal \u043C(м):lower_case_em \u043D(н):lower_case_en \u043D\u0484(н҄):lower_case_en_pal \u043E(о):lower_case_o',
           '\u043F(п):lower_case_pe \u0440(р):lower_case_er \u0440\u0484(р҄):lower_case_er_pal \u0441(с):lower_case_es \u0442(т):lower_case_te \u0443(у):lower_case_u \u0445(х):lower_case_ha \u0446(ц):lower_case_tse \u0447(ч):lower_case_che \u0448(ш):lower_case_sha',
           '\u0449(щ):lower_case_shcha \u044A(ъ):lower_case_hard_sign \u044B(ы):lower_case_yeru \u044C(ь):lower_case_soft_sign \u0463(ѣ):lower_case_yat \u044E(ю):lower_case_yu \u0467(ѧ):lower_case_little_yus \u0469(ѩ):lower_case_iotified_little_yus \u046B(ѫ):lower_case_big_yus \u046D(ѭ):lower_case_iotified_big_yus',
-          '\u0458(ј):lower_case_je \u0069\u032F(i̯):lower_case_close_front_vowel {accept}'
+          '\u006A(ј):lower_case_je \u0069\u032F(i̯):lower_case_close_front_vowel {accept} {cancel}'
     		]
       },
       display: {
-        'accept': 'Поиск:Поиск (Shift-Enter)'
+        'accept': 'Поиск:Поиск (Shift-Enter)',
+        'cancel': 'Закрыть:Закрыть (Esc)'
       },
     	usePreview: false // no preveiw
+    })
+
+    this.kb.bind('keyboardChange', (e, keyboard, el) => {
+      el.dispatchEvent(new Event('custom-keyup'))
     })
   }
 
@@ -337,8 +352,10 @@ let sortAlphabetically = function(sortOrder) {
 
 let sortByAlphabet = function(a, b, rev) {
   // remove slashes, asterisks, dots, round brackets and spaces
-  a = a.replace(/\/|\*|\s|\.|\(|\)/g,'')
-  b = b.replace(/\/|\*|\s|\.|\(|\)/g,'')
+  // a = a.replace(/\/|\*|\s|\.|\(|\)/g,'')
+  // b = b.replace(/\/|\*|\s|\.|\(|\)/g,'')
+  a = a.replace(/\/|\s/g,'')
+  b = b.replace(/\/|\s/g,'')
 
   if(rev) {
     // remove numbers
